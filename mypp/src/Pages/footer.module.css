@@ -1,0 +1,29 @@
+.heading {
+  color: red;
+}
+
+.parent {
+  display: flex;
+  background-color: #333333;
+  color: whitesmoke;
+  font-size: 1rem;
+  margin-top: -9rem;
+  padding: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: whitesmoke;
+  margin-top: 1rem;
+}
+
+.social-icons > svg {
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+  color: white;
+}

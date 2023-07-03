@@ -1,0 +1,26 @@
+.heading {
+  color: red;
+  font-size: 3.9rem;
+}
+.about {
+  margin-left: 35rem;
+  padding-bottom: 3rem;
+  margin-top: 10rem;
+
+}
+.paragraph {
+  font-size: 1rem;
+  margin-left: 35rem;
+  font-weight: bold;
+  margin-top: -30vw;
+}
+.btn {
+  background-color: red;
+  color: whitesmoke;
+  height: 5.5vh;
+  width: 8vw;
+  border-radius: 0.5rem;
+  border: none;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}

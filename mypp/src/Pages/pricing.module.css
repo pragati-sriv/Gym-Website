@@ -1,0 +1,154 @@
+.pricingTop{
+    text-align: center;
+}
+.pricingTop h2{
+    font-size:  2.5rem;
+    margin-bottom: 20px;
+    /* color: #862828; */
+    color: red;
+    font-style: italic;
+    margin-bottom: 3rem;
+}
+.pricingWrapper{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* column-gap: 2rem; */
+    justify-content: space-around;
+  
+}
+
+.pricingItem{
+    box-shadow: rgba(142, 15, 15, 0.15) 0px 5px 15px 0px;
+    border-radius: 5px;
+    width: 25%;
+    background-color: #fff;
+    margin-left: 1rem;
+    transform: 1s;
+    
+}
+.pricingItem:hover{
+    transform:scale(1.2);
+    z-index: 2;
+}
+.pricingCardTop{
+    padding: 30px;
+    border-bottom: 1px solid #d3cef2;
+    text-align: center;
+    background-color: #d4b2b2;
+}
+
+.pricingCardTop h3{
+    font-size: 1.5rem;
+    margin-bottom: 0.9rem;
+    color: #862828;
+}
+
+.pricingCardTop .pricing{
+    font-size: 1.4rem;
+
+}
+.pricingCardTop .pricing span{
+    font-size: 1.3rem;
+    color: #a47979;
+}
+
+.pricingItem .services{
+    padding: 30px;
+}
+
+.pricingItem .services ul li{
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+    color: #862828;
+    line-height: 28px;
+    font-weight: bold;
+    
+}
+
+.pricingItem .services ul li span i{
+    font-size: 1rem;
+}
+
+.services{
+    text-align: center;
+    
+}
+.services button{
+    margin-top: 50px;
+    width: 9vw;
+    height: 5vh;
+    background-color: rgb(150, 32, 32);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+}
+.services button:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: rgb(142, 67, 67);
+}
+.pricingItem02{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 5px;
+    width: 25%;
+    background-color: #fff;
+    transform: 1s;
+}
+
+.pricingItem02:hover{
+    transform:scale(1.2);
+    z-index: 2;
+}
+
+.pricingItem02 .pricingCardTop{
+    background-color: #a47979;
+    color: #d3cef2;
+    border-radius: 5px 5px 0px 0px;
+    
+}
+.pricingItem02 .services{
+    padding: 30px;
+}
+
+.pricingItem02 .services ul li{
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+    color: #862828;
+    line-height: 28px;
+    font-weight: bold;
+    
+}
+
+.pricingItem03{
+    box-shadow: rgba(142, 15, 15, 0.15) 0px 5px 15px 0px;
+    border-radius: 5px;
+    width: 25%;
+    background-color: #fff;
+    margin-right: 1rem;
+    transform: 1.5s;
+}
+.pricingItem03:hover{
+    transform:scale(1.2);
+    z-index: 2;
+}
+
+.pricingItem03 .pricingCardTop{
+    /* background-color: #d4b2b2; */
+    color: #d3cef2;
+    border-radius: 5px 5px 0px 0px;
+}
+.pricingItem03 .services{
+    padding: 30px;
+}
+
+.pricingItem03 .services ul li{
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+    color: #862828;
+    line-height: 28px;
+    font-weight: bold;
+    
+}
